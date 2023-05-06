@@ -17,6 +17,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  background-color: var(--white-color);
 }
 
 .list {
@@ -81,6 +82,8 @@ body {
 /* Hero */
 
 .hero-title {
+  text-align: center;
+  letter-spacing: 0.02em;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -125,12 +128,11 @@ body {
   margin: -1px;
 }
 .advant-undertitle {
+  letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-}
-.advant-text {
-  color: var(--text-color);
+  color: var(--title-color);
 }
 
 /* Section WhatAreWeDoing, 
@@ -142,19 +144,20 @@ Section Team*/
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  color: var(--title-color);
 }
 
 .team-undertitle {
+  letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
+  color: var(--title-color);
 }
 
 .team-text {
   text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
 }
 
 .team-section {
@@ -220,8 +223,4 @@ Section Team*/
   font-size: 20px;
   line-height: 1.2;
   color: var(--title-color);
-}
-
-.project-text {
-  color: var(--text-color);
 }
