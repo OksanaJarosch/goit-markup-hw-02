@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--title-color);
+  color: var(--text-color);
   background-color: var(--white-color);
 }
 
@@ -139,12 +139,13 @@ body {
 Section Team*/
 
 .section-title {
+  letter-spacing: 0.02em;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 .team-undertitle {
@@ -158,6 +159,7 @@ Section Team*/
 
 .team-text {
   text-align: center;
+  color: var(--text-color);
 }
 
 .team-section {
