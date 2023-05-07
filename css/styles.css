@@ -145,7 +145,7 @@ Section Team*/
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  color: var(--text-color);
+  color: var(--title-color);
 }
 
 .team-undertitle {
@@ -201,6 +201,7 @@ Section Team*/
   background: var(--middle-background);
   border: 1px solid var(--borders-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .button.active {
@@ -221,6 +222,7 @@ Section Team*/
 /* Projects */
 
 .project-title {
+  letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
